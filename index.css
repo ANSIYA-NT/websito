@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border:box-sizing;
+}
+
+#header nav{
+display:flex;
+justify-content: space-around;
+align-items: center;
+background: rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(50px);
+z-index: 1;
+}
+.logo{
+    width:100px;
+}
+.list{
+    list-style:none ;
+    display: inline;
+    margin:0px 10px;
+}
+.link{
+    text-decoration: none;
+}
+.but{
+    border-radius: 10px;
+    width:250px;
+    height:20px;
+}
+#fimage{
+    width:100%;
+    height:600px;
+    background-image: url("./food.png");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: 100% 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+
+  }
+.food{
+  width:100%;
+  height:100%;
+}
+.head{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   
+    width:300px;
+    height:150px;
+    border:2px solid;
+ 
+  background-color: azure;
+   
+    
+}
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.h2{
+    font-family: cursive;
+}
+#box{
+    width: 100%;
+   height:600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width:300px;
+    height:500px;
+    border:1px solid;
+    margin:10px;
+    background-color: bisque;
+    text-align: center;
+}
+.group1{
+    width:100%;
+    height:350px;
+}
+.h3{
+    font-family: "Kanit", sans-serif;
+}
+.h4{
+    font-family: "Dancing Script", cursive;
+}
+.h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#belast{
+    width: 100%;
+    height:500px;
+    margin-top:100px;
+    display:flex;
+   
+
+
+}
+.img1{
+    width:50%;
+    height:400px;
+}
+.nav{
+    width:50%;
+    margin-top: 100px;
+    text-align:center;
+   
+   
+ 
+
+}
+.c1{
+    width:250px;
+    height: 20px;
+}
+.h8{
+    font-family: cursive;
+    margin-left: 50px;
+    margin-top:-15px;
+}
+.h9{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 250px;
+    font-size: 10px;
+    margin-top: -30px;
+}
+.gal{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+#gallery{
+    width:100%;
+    height:400px;
+    margin-top: -100px;
+    background-color: burlywood;
+}
+.lery{
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img2{
+    width:200px;
+    height:150px;
+}
+.z1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 50px 0px 50px;
+    
+}
+.l1{
+   list-style:none; 
+   
+
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.w1{
+    text-align: center;
+}
+#last{
+    width:100%;
+    /* height:100px; */
+   margin-top: 100px;
+    text-align: center;
+
+    
+}
+.lshd{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#iconcollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.icon{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 10px;
+}
+.brands{
+    color:black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,red,green,blue);
+
+}
+.icon:hover .brands{
+  color:white;
+  /* animation */
+  animation: rotate 3s;
+} 
+@keyframes rotate{
+0%{
+    transform: rotate(30deg);
+}
+20%{
+    transform:rotate(-30deg);
+}
+40%{
+    transform: rotate(30deg);
+}
+60%{
+    transform:rotate(-30deg);
+}
+80%{
+    transform: rotate(30deg);
+}
+100%{
+    transform:rotate(-30deg);
+}
+
+}
+
+
